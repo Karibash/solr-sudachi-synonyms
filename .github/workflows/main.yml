@@ -7,7 +7,7 @@ on:
 
 env:
   SUDACHI_DICT_REPO: https://github.com/WorksApplications/SudachiDict
-  SUDACHI_STNONYMS_DIR: src/main/text/synonyms.txt
+  SUDACHI_SYNONYMS_DIR: src/main/text/synonyms.txt
 
 jobs:
   main:
@@ -18,13 +18,15 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Checkout Synonyms
+      id: synonyms
       run: |
         git clone --filter=blob:none --no-checkout $SUDACHI_DICT_REPO ./dict
         cd dict
         git sparse-checkout init
-        git sparse-checkout add $SUDACHI_STNONYMS_DIR
+        git sparse-checkout add $SUDACHI_SYNONYMS_DIR
         git checkout
-
+        hash=$(git log -1 --pretty=format:"%h" $SUDACHI_SYNONYMS_DIR)
+        echo "::set-output name=hash::$hash"
     - name: Setup Python
       uses: actions/setup-python@v2
       with:
@@ -32,11 +34,10 @@ jobs:
 
     - name: Run Script
       run: |
-        python ssyn2es.py ./dict/$SUDACHI_STNONYMS_DIR > synonyms.txt
-
+        python ssyn2es.py ./dict/$SUDACHI_SYNONYMS_DIR > synonyms.txt
     - name: Commit And Push
       uses: EndBug/add-and-commit@v7
       with:
         branch: main
         add: synonyms.txt
-        message: 'Update synonyms'
+        message: 'Update synonyms, see: ${{ env.SUDACHI_DICT_REPO }}/blob/${{ steps.synonyms.outputs.hash }}/${{ env.SUDACHI_SYNONYMS_DIR }}'
