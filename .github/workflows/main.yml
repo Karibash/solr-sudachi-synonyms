@@ -1,0 +1,40 @@
+name: Main
+
+on:
+  workflow_dispatch:
+
+env:
+  SUDACHI_DICT_REPO: https://github.com/WorksApplications/SudachiDict
+  SUDACHI_STNONYMS_DIR: src/main/text/synonyms.txt
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Checkout Synonyms
+      run: |
+        git clone --filter=blob:none --no-checkout $SUDACHI_DICT_REPO ./dict
+        cd dict
+        git sparse-checkout init
+        git sparse-checkout add $SUDACHI_STNONYMS_DIR
+        git checkout
+
+    - name: Setup Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.x"
+
+    - name: Run Script
+      run: |
+        python ssyn2es.py ./dict/$SUDACHI_STNONYMS_DIR > synonyms.txt
+
+    - name: Commit And Push
+      uses: EndBug/add-and-commit@v7
+      with:
+        branch: main
+        add: synonyms.txt
+        message: 'Update synonyms'
