@@ -12,6 +12,17 @@ https://github.com/WorksApplications/elasticsearch-sudachi/blob/828ee7cc991becf3
 The converted dictionary can be downloaded from the link below.  
 https://github.com/Karibash/solr-sudachi-synonyms/blob/main/synonyms.txt
 
+# Usage
+
+## ElasticSearch
+
+https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-synonym-tokenfilter.html
+https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-synonym-graph-tokenfilter.html
+
+## AWS OpenSearch
+
+https://docs.aws.amazon.com/ja_jp/opensearch-service/latest/developerguide/custom-packages.html
+
 # License
 
 MIT License
