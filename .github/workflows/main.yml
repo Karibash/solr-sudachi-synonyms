@@ -27,6 +27,7 @@ jobs:
         git checkout
         hash=$(git log -1 --pretty=format:"%h" $SUDACHI_SYNONYMS_DIR)
         echo "::set-output name=hash::$hash"
+
     - name: Setup Python
       uses: actions/setup-python@v2
       with:
@@ -35,6 +36,7 @@ jobs:
     - name: Run Script
       run: |
         python ssyn2es.py ./dict/$SUDACHI_SYNONYMS_DIR > synonyms.txt
+
     - name: Commit And Push
       uses: EndBug/add-and-commit@v7
       with:
