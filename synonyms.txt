@@ -78,7 +78,7 @@
 アンサー,answer,回答,答え,解答
 アンダーライン,underline,下線
 アンチエイジング,アンチエージング,antiaging,抗老化
-アンロック,unlock,ロック解除,解錠
+アンロック,unlock,ロック解除,解錠,開錠
 ガード,guard=>ガード,guard,防御,ブロック,block
 ガードマン,守衛,警備員
 アート,art,arts,芸術
@@ -367,7 +367,7 @@ soundtrack,サントラ=>soundtrack,サントラ,サウンドトラック
 スタートライン,starting line,スタート地点=>スタートライン,starting line,スタート地点,出発点
 スチーム,steam,蒸気
 ステアリング,steering=>ステアリング,steering,ハンドル,handle
-滞在,ステイ=>滞在,ステイ,stay
+滞在,ステー,ステイ=>滞在,ステー,ステイ,stay
 ステルスマーケティング,stealth marketing,ステマ
 利害関係者,ステークホルダー,ステイクホルダー,stakeholder
 ステージ,stage,舞台
@@ -629,12 +629,12 @@ hat=>hat,ハット,帽子
 ビニールテープ,ビニルテープ,ビニテ
 ミャンマー連邦共和国,ミャンマー,Myanmar,ビルマ,Burma
 ビーチサンダル,beach sandals,ビーサン
-ビール,bier,ビヤ,ビア,beer,麦酒
+ビール,beer,麦酒=>ビール,beer,麦酒,ビヤ,ビア
 画素=>画素,ピクセル,pixel
 投手=>投手,ピッチャー,pitcher
 終止符=>終止符,ピリオド,period
 ピンク色,桃色,淡紅色=>ピンク色,桃色,淡紅色,ピンク,pink
-フォーカス,focus=>フォーカス,focus,ピント,焦点
+brandpunt,フォーカス,focus=>brandpunt,フォーカス,focus,ピント,焦点
 最高潮,クライマックス,climax=>最高潮,クライマックス,climax,ピーク,peak,頂点
 ファイナル,final,決勝,決勝戦
 ファイバー,ファイバ,fiber,繊維
@@ -744,7 +744,7 @@ hat=>hat,ハット,帽子
 ポストドクター,ポスドク,博士研究員
 ポテトサラダ,potato salad,ポテサラ
 潜在能力,潜在力,ポテンシャル,potential,ポテンシャリティー,potentiality
-ポニーテール,pony-tail,ポニテ
+ポニーテール,ponytail,ポニテ
 ポラロイドカメラ,ポラロイド,ポーラロイド,Polaroid,ポラ
 ポリエステル,polyester
 ポリエチレン,polyethylene=>ポリエチレン,polyethylene,ポリ,poly
@@ -1865,6 +1865,7 @@ GAGA★,ギャガ
 サントリーパブリシティサービス=>サントリーパブリシティサービス,SPS
 サントリーホールディングス,サントリーHD
 サントリー食品インターナショナル,サントリー食品=>サントリー食品インターナショナル,サントリー食品,SBF
+Sandoz=>Sandoz,サンド
 サンノプコ,NOPCO
 サンワコムシスエンジニアリング,サンコム
 シー・エフ・デー販売,CFD販売
@@ -2926,7 +2927,7 @@ JALパック,ジャルパック
 ダイヤモンドシティ=>ダイヤモンドシティ,DC
 ダブリュエックス二十四=>ダブリュエックス二十四,WX24
 ダンスノットアクト=>ダンスノットアクト,DNA
-ダヴィンチ・ホールディングス=>ダヴィンチ・ホールディングス,ダヴィ,ダヴィンチ
+ダヴィンチ・ホールディングス=>ダヴィンチ・ホールディングス,ダヴィ,ダヴィンチ,K.K. daVinci Holdings
 チノー=>チノー,CHINO
 チャリ・ロト,チャリロト
 チロル観光=>チロル観光,チロル
@@ -3291,14 +3292,14 @@ BLUE GRASS=>BLUE GRASS,ブルーグラス
 ワッツオブトーキョー=>ワッツオブトーキョー,ワッツ,WATTS
 ヴァリック,VALIC
 ヴィ・ド・フランス,ヴィド
-ヴィレッジヴァンガードコーポレーション,ヴィレヴァン,ビレバン=>ヴィレッジヴァンガードコーポレーション,ヴィレヴァン,ビレバン,VV,ヴィレッジ
+ヴィレッジヴァンガードコーポレーション,ヴィレッジヴァンガード,ヴィレヴァン,ビレバン=>ヴィレッジヴァンガードコーポレーション,ヴィレッジヴァンガード,ヴィレヴァン,ビレバン,VV,ヴィレッジ
 阿波銀行,あわぎん,阿波銀
 愛知銀行,愛銀
 愛媛銀行,ひめぎん
 愛媛経済レポート=>愛媛経済レポート,EKR
 愛媛朝日テレビ=>愛媛朝日テレビ,eat
 安川電機=>安川電機,YEC
-伊予銀行,いよぎん,伊予銀
+伊予銀行,いよぎん,伊予銀,The Iyo Bank
 伊予鉄髙島屋,いよてつ高島屋
 医学生物学研究所,医生研=>医学生物学研究所,医生研,MBL
 井之上パブリックリレーションズ,井之上PR
@@ -3939,7 +3940,7 @@ TENGA=>TENGA,典雅
 久留米情報システム=>久留米情報システム,KISC
 宮崎ケーブルテレビ=>宮崎ケーブルテレビ,MCN
 宮崎日産自動車,宮崎日産
-宮城交通,宮交
+宮城交通,宮交=>宮城交通,宮交,ミヤコー
 宮城西濃運輸,宮城西濃
 宮川工機=>宮川工機,MIYAGAWA
 牛乳石鹼共進社,牛乳石鹸
@@ -4108,7 +4109,7 @@ TENGA=>TENGA,典雅
 三井住友トラスト・キャピタル,SMTCAP
 三井住友トラスト・システム&サービス,SMTS&S
 三井住友トラスト・パナソニックファイナンス,SMTPFC
-三井住友トラスト・ホールディングス,三井住友トラ,三住トラスト=>三井住友トラスト・ホールディングス,三井住友トラ,三住トラスト,SMTH
+三井住友トラスト・ホールディングス,Sumitomo Mitsui Trust Holdings,三井住友トラスト,三井住友トラ,三住トラスト=>三井住友トラスト・ホールディングス,Sumitomo Mitsui Trust Holdings,三井住友トラスト,三井住友トラ,三住トラスト,SMTH
 三井住友ファイナンス&リース=>三井住友ファイナンス&リース,SMFL
 三井住友海上あいおい生命保険,あいおい生命
 三井住友海上グループホールディングス,三住海上=>三井住友海上グループホールディングス,三住海上,MSIG
@@ -4146,7 +4147,7 @@ TENGA=>TENGA,典雅
 三鷹光器=>三鷹光器,ミタカ
 三津浜工業=>三津浜工業,ミツハマ
 三菱UFJニコス=>三菱UFJニコス,MUN
-三菱UFJモルガン・スタンレー証券,三菱UFJMS証券
+三菱UFJモルガン・スタンレー証券,Mitsubishi UFJ Morgan Stanley Securities,三菱UFJMS証券
 三菱UFJリース=>三菱UFJリース,MUL
 三菱UFJリサーチ&コンサルティング=>三菱UFJリサーチ&コンサルティング,MURC
 三菱UFJ証券ホールディングス,三菱UFJ証HD
@@ -4606,7 +4607,7 @@ TENGA=>TENGA,典雅
 中鉄観光,中観=>中鉄観光,中観,ちゅうかん
 中日本ハイウェイ・エンジニアリング東京,エンジ東京
 中日本高速道路,NEXCO中日本
-中日本鋳工=>中日本鋳工,NCC
+中日本鋳工,Nakanippon Casting=>中日本鋳工,Nakanippon Casting,NCC
 中部ケーブルネットワーク,CCNet
 中部テレコミュニケーション=>中部テレコミュニケーション,ctc
 中部ガス,中部瓦斯
@@ -4852,8 +4853,8 @@ TENGA=>TENGA,典雅
 日特建設,日特建=>日特建設,日特建,日特
 日乃本食産,三田見野屋
 日本ATM=>日本ATM,ATMJ
-日本BS放送=>日本BS放送,BS11
-日本KFCホールディングス,日本KFC=>日本KFCホールディングス,日本KFC,KFCJ,ケンタッキー
+日本BS放送,Nippon BS Broadcasting=>日本BS放送,Nippon BS Broadcasting,BS11
+日本KFCホールディングス,KFC Holdings japan,日本KFC=>日本KFCホールディングス,KFC Holdings japan,日本KFC,KFCJ,ケンタッキー
 日本NCR=>日本NCR,NCR
 日本たばこ産業,日本たばこ=>日本たばこ産業,日本たばこ,JT
 日本ぱちんこ部品=>日本ぱちんこ部品,NPP,にっぱち
@@ -4875,11 +4876,11 @@ TENGA=>TENGA,典雅
 日本グラファイトファイバー=>日本グラファイトファイバー,NGF
 日本ケミコン,日ケミ
 日本ゲームカード=>日本ゲームカード,NGC
-日本コークス工業,日本コークス
+日本コークス工業,Nippon Coke & Engineering,日本コークス
 日本コムシス,COMSYS
 日本コロムビア=>日本コロムビア,コロムビア
 日本コンクリート,日コン
-日本コンクリート工業=>日本コンクリート工業,NC
+日本コンクリート工業,Nippon Concrete Industries=>日本コンクリート工業,Nippon Concrete Industries,NC
 日本シイエムケイ=>日本シイエムケイ,CMK
 日本システムウエア=>日本システムウエア,NSW
 日本ジェネリック=>日本ジェネリック,JG
@@ -4901,7 +4902,7 @@ TENGA=>TENGA,典雅
 日本トランスオーシャン航空=>日本トランスオーシャン航空,JTA
 日本トランスシティ,TRANCY,トランシー
 日本トレクス=>日本トレクス,TREX
-NH Foods Ltd.=>NH Foods Ltd.,日本ハム,ニッポンハム,日ハム,nippon meat packers，inc.
+NH Foods Ltd.=>NH Foods Ltd.,日本ハム,ニッポンハム,日ハム,nippon meat packers\u002Cinc.
 日本バルカー工業,バルカー,VALQUA
 日本パルスモーター=>日本パルスモーター,NPM
 日本パレットプール=>日本パレットプール,NPP
@@ -4910,7 +4911,7 @@ NH Foods Ltd.=>NH Foods Ltd.,日本ハム,ニッポンハム,日ハム,nippon me
 日本ピストンリング,日ピス=>日本ピストンリング,日ピス,NPR
 日本ファルコム,ファルコム,Falcom
 日本フルハーフ=>日本フルハーフ,NFC
-日本プロセス=>日本プロセス,JPD
+日本プロセス,Japan Process Development=>日本プロセス,Japan Process Development,JPD
 日本ベアリング=>日本ベアリング,NB
 日本ベンダーネット=>日本ベンダーネット,ベンダー
 日本ペイント,日ペ,ニッペ
@@ -4932,7 +4933,7 @@ NH Foods Ltd.=>NH Foods Ltd.,日本ハム,ニッポンハム,日ハム,nippon me
 日本加工製紙=>日本加工製紙,NK
 日本貨物航空=>日本貨物航空,NCA
 日本貨物鉄道,JR貨物=>日本貨物鉄道,JR貨物,JRF,JR-F
-日本海洋掘削=>日本海洋掘削,JDC
+日本海洋掘削,Japan Drilling=>日本海洋掘削,Japan Drilling,JDC
 日本碍子,日本ガイシ=>日本碍子,日本ガイシ,NGK,ガイシ
 日本瓦斯,ニチガス
 日本管理センター=>日本管理センター,JPMC
@@ -4954,7 +4955,7 @@ NH Foods Ltd.=>NH Foods Ltd.,日本ハム,ニッポンハム,日ハム,nippon me
 北近畿日交,福知山日交=>北近畿日交,福知山日交,日本交通,日交
 日本交通技術=>日本交通技術,JTC
 日本光電工業,日本光電
-日本航空,日航=>日本航空,日航,JAL
+日本航空,Japan Airlines,日航=>日本航空,Japan Airlines,日航,JAL
 日本航空電子工業,航空電子=>日本航空電子工業,航空電子,JAE
 日本高圧電気=>日本高圧電気,NKE
 日本高周波,日高波=>日本高周波,日高波,NKC
@@ -4969,7 +4970,7 @@ NH Foods Ltd.=>NH Foods Ltd.,日本ハム,ニッポンハム,日ハム,nippon me
 日本事務器=>日本事務器,NJC
 日本自動化開発=>日本自動化開発,JAD
 日本自動車ターミナル=>日本自動車ターミナル,JMT
-NISSHA,日本写真印刷
+NISSHA,日本写真印刷,Nissha Printing
 日本車輌製造,日本車両,日車
 日本酒類販売,日酒販
 日本重化学工業,日重化
@@ -4997,7 +4998,7 @@ NISSHA,日本写真印刷
 日本端子=>日本端子,NT
 日本畜産,nicchiku
 日本中央バス=>日本中央バス,NCB,日本中央
-日本駐車場開発,日本駐車場
+日本駐車場開発,Nippon Parking Development,日本駐車場
 日本調剤,日調剤=>日本調剤,日調剤,JP
 日本通運,日通,NIPPON EXPRESS,マルつう
 日本通信=>日本通信,JCI
@@ -5010,8 +5011,8 @@ NISSHA,日本写真印刷
 日本電産サンキョー,電産サンキョー
 日本電産,NIDEC
 日本電子=>日本電子,JEOL
-日本電子材料=>日本電子材料,JEM
-日本電信電話=>日本電信電話,NTT
+日本電子材料,Japan Electronic Materials=>日本電子材料,Japan Electronic Materials,JEM
+日本電信電話,Nippon Telegraph and Telephone=>日本電信電話,Nippon Telegraph and Telephone,NTT
 日本電設工業,電設工=>日本電設工業,電設工,NDK
 日本電通=>日本電通,NDK
 日本土地建物,日土地
@@ -5020,7 +5021,7 @@ NISSHA,日本写真印刷
 日本特殊陶業,日特陶=>日本特殊陶業,日特陶,日特
 日本農産工業,NOSAN,ノーサン
 日本農薬,日農薬,日農,Nichino,ニチノー=>日本農薬,日農薬,日農,Nichino,ニチノー,農薬
-日本配合飼料,ニッパイ=>日本配合飼料,ニッパイ,日配
+日本配合飼料,Nippon Formula Feed Manufacturing,ニッパイ=>日本配合飼料,Nippon Formula Feed Manufacturing,ニッパイ,日配
 日本発條,日本発条,NHKニッパツ,ニッパツ=>日本発條,日本発条,NHKニッパツ,ニッパツ,NHK
 日本発送電,日発
 日本板硝子=>日本板硝子,NSG
@@ -5070,7 +5071,7 @@ NISSHA,日本写真印刷
 飛島建設=>飛島建設,トビシマ
 尾道エフエム放送,エフエムおのみち,エフエムおのみち79.4
 美スズ産業=>美スズ産業,ミスゞ
-美津濃=>美津濃,ミズノ
+美津濃,ミズノ,MIZUNO
 菱機工業=>菱機工業,RYOKI
 姫路ケーブルテレビ=>姫路ケーブルテレビ,WINK
 浜松ケーブルテレビ,ウィンディ
@@ -5168,7 +5169,7 @@ NISSHA,日本写真印刷
 北海道放送=>北海道放送,HBC
 北海道北見バス,北見バス
 北関東綜合警備保障,北綜警
-北興化学工業,ホクコー
+北興化学工業,Hokko Chemical Industry,ホクコー
 北近畿タンゴ鉄道=>北近畿タンゴ鉄道,KTR
 北九州高速鉄道,北九州モノレール,小倉モノレール
 北九州日産モーター,北九日産
@@ -5209,7 +5210,7 @@ NISSHA,日本写真印刷
 未来工業=>未来工業,ミライ,MIRAI
 名古屋エアケータリング=>名古屋エアケータリング,NAC
 名古屋ステーション開発=>名古屋ステーション開発,NSK
-名古屋テレビ放送,メ～テレ,名古屋テレビ,ナゴヤテレビ=>名古屋テレビ放送,メ～テレ,名古屋テレビ,ナゴヤテレビ,NBN
+名古屋テレビ放送,メ~テレ,名古屋テレビ,ナゴヤテレビ=>名古屋テレビ放送,メ~テレ,名古屋テレビ,ナゴヤテレビ,NBN
 名古屋トヨペット=>名古屋トヨペット,NTP
 名古屋市場運輸,市場運輸
 名古屋中小企業投資育成,SBIC Central Japan
@@ -5845,7 +5846,7 @@ Parma=>Parma,パルマ
 ベルゲン,Bergen
 ベルダン,ヴェルダン,Verdun
 ベルン,Bern
-鯨,クジラ,くじら,ホエール,Whale
+鯨,クジラ,くじら,ホエール,Whale=>鯨,クジラ,くじら,ホエール,Whale,勇魚
 ボルガ,ヴォルガ,Volga
 タイムリー,timely
 ボルゴグラード,ヴォルゴグラード,Volgograd
@@ -5871,7 +5872,7 @@ Murray=>Murray,マレー
 メコン,Mekong
 メソアメリカ,Mesoamerica
 メダン,Medan
-マナド,メナド,Menado
+マナド,Manado,メナド,Menado
 デグレード,degrade,デグレ
 モナコ公国,モナコ,Monaco
 モロニ,Moroni
@@ -6555,7 +6556,7 @@ sherry=>sherry,シェリー,セリー
 チョップ,チャップ,chop
 チャプレン,chaplain=>チャプレン,chaplain,聖職者
 チューブリン,tubulin
-月下香,チューベローズ,チュベローズ,tuberose
+月下香,チューベローズ,チュベローズ,tuberose=>月下香,チューベローズ,チュベローズ,tuberose,ゲッカコウ
 チワワ,chihuahua
 顎,chin=>顎,chin,あご,アゴ,チン
 ツインセット,twin set
@@ -6625,7 +6626,7 @@ PaaS=>PaaS,パース
 ナルコチン,narcotine
 ナローゲージ,narrow gauge,狭軌
 ニード,need
-ニトロ,nitro
+ニトロ=>ニトロ,nitro
 ニュージャズ,new jazz
 ニューデザイン,new design
 コンフィグレーション,コンフィギュレーション,configuration,コンフィグ,config
@@ -7010,7 +7011,7 @@ muff=>muff,マフ
 ベトナム社会主義共和国,ベトナム,Viet Nam
 ミンサー,mincer
 ミンストレル,minstrel
-薄荷,はっか,ハッカ,ミント,mint
+薄荷,はっか,ハッカ,ミント,mint=>薄荷,はっか,ハッカ,ミント,mint,ハツカ
 ムーン,moon
 ムンプス,mumps
 メーザー,maser
@@ -7188,7 +7189,7 @@ Aussie=>Aussie,オージー
 オープンスタック,OpenStack
 オーディン,Odin
 オスマン,Osman
-カイザー,Kaiser
+カイザー,Kaiser=>カイザー,Kaiser,皇帝
 カリスト,Callisto,Kallistō
 ガリレオ,Galileo
 ガンジー,ガンディー,Gandhi
@@ -7320,7 +7321,7 @@ DaaS=>DaaS,ダース
 アニメーター,animator
 アメニティー,アメニティ,amenity
 アルミナ,alumina
-アンドロイド,android
+アンドロイド,Android
 アンバサダー,ambassador
 アイシャドー,eye shadow=>アイシャドー,eye shadow,シャドー,shadow
 イコライザー,イコライザ,equalizer
@@ -7335,7 +7336,7 @@ DaaS=>DaaS,ダース
 インレー,inlay
 ウインド,ウィンド,wind
 歓迎,ウェルカム,ウエルカム,welcome
-エクソン,エキソン,exon
+エキソン,exon=>エキソン,exon,エクソン
 エストロゲン,estrogen
 エッセー,エッセイ,essay,随筆,随想
 エミッター,エミッタ,emitter
@@ -7556,7 +7557,7 @@ raster=>raster,ラスター
 聴衆,オーディエンス,audience=>聴衆,オーディエンス,audience,観客
 オーバーレイ,overlay
 アップ=>アップ,あっぷ,up
-オーバル,oval
+オーバル=>オーバル,oval
 オールマイティー,オールマイティ,almighty,全能,万能
 オブセッション,obsession
 オルガニスト,organist
@@ -7640,7 +7641,7 @@ cancan=>cancan,カンカン
 テレワーク,telework,テレワーキング,teleworking,リモートワーク,remote work,リモートワーキング
 アナーキー,anarchy=>アナーキー,anarchy,無政府状態,無秩序
 テンポラリー,テンポラリ,temporary,一時的,臨時,臨時的
-diva=>diva,ディーバ
+ディーバ,ディーヴァ,diva
 デコーダー,デコーダ,decoder
 デジャビュ,デジャブ,デジャブー,デジャヴ,デジャヴュ,déjà-vu,既視感
 デューティ,duty=>デューティ,duty,デューティー
@@ -7929,7 +7930,7 @@ bonbon=>bonbon,ボンボン
 エンロン,Enron
 ガスプロム,Gazprom
 イリジウム,iridium
-コストコ・ホールセール,コストコ,Costco
+コストコホールセール,コストコ,Costco
 クレパス,Craypas
 アーナンダ,Ananda
 アービング,アーヴィング,Irving
@@ -8117,7 +8118,7 @@ PIAFS,ピアフ,personal handyphone system Internet access forum standard
 マッキントッシュ,Macintosh,Mac,マック
 構内通信網,ローカルエリアネットワーク,local area network=>構内通信網,ローカルエリアネットワーク,local area network,LAN
 Laon=>Laon,ラン
-アルハンブラ,Alhambra
+アルハンブラ,アランブラ,Alhambra
 ボルボ,Volvo
 ナイキ,Nike
 アレント,アーレント,Arendt
@@ -8149,7 +8150,7 @@ Shaba=>Shaba,シャバ
 冬,冬季,ウインター,ウィンター,winter
 国際原子力事象評価尺度,International Nuclear and Radiological Event Scale=>国際原子力事象評価尺度,International Nuclear and Radiological Event Scale,INES,イネス
 クレド,Credo,行動指針,行動規範
-タイムズ,the Times
+The Times=>The Times,タイムズ
 デッカ,Decca
 ハーケンクロイツ,Hakenkreuz
 アステロイド,asteroid
@@ -8774,7 +8775,6 @@ Renan=>Renan,ルナン
 ケララ,ケーララ,Kerala
 コスタリカ共和国,コスタリカ,コスタ・リカ,Costa Rica
 コズロフ,カズロフ,Kozlov
-サクソニア,Saxonia
 サンレモ,サン・レモ,San Remo
 サントドミンゴ,サント・ドミンゴ,Santo Domingo
 シュトラスブルク,Strassburg
@@ -9084,7 +9084,6 @@ sima=>sima,シマ
 スタジオ,スタディオ,studio
 スタリオン,stallion
 スチルブ,stilb
-ステー=>ステー,stay
 ステーツマン,statesman
 ストケシア,stokesia
 ストラッグル,struggle=>ストラッグル,struggle,葛藤
@@ -9229,7 +9228,7 @@ calla=>calla,カラー
 バソリス,batholith,底盤
 バックラム,バクラム,buckram
 バニティー,vanity=>バニティー,vanity,化粧ポーチ
-バラクータ,barracouta
+barracouta=>barracouta,バラクータ
 バルジ,bulge
 脆弱性,バルネラビリティー,vulnerability
 バング,bang,前髪
@@ -9261,7 +9260,7 @@ calla=>calla,カラー
 ピスタチオ,ピスタシオ,pistachio
 ピネン,pinene
 ピリドキサミン,pyridoxamine
-コール天,別珍=>コール天,別珍,ファスチャン,fustian
+コール天,コーデュロイ=>コール天,コーデュロイ,ファスチャン,fustian
 ファナティシズム,fanaticism,狂信=>ファナティシズム,fanaticism,狂信,熱狂
 ファミリアー,ファミリア,familiar
 ファリシズム,phallicism
@@ -9299,7 +9298,6 @@ calla=>calla,カラー
 プリアンプ,preamp
 プリテスト,pretest,予備試験,予備調査
 プローズ,prose=>プローズ,prose,散文
-プローン,prawn
 プロクセミックス,proxemics
 プロゲスチン,progestin
 娼婦,売春婦=>娼婦,売春婦,プロスティチュート,prostitute
@@ -9546,7 +9544,7 @@ cue=>cue,キュー
 キャッツアイ,キャッツ・アイ,cat's-eye
 ギブアンドテーク,ギブアンドテイク,ギブ・アンド・テーク,ギブ・アンド・テイク,give-and-take,互恵,互恵的
 キャリアウーマン,キャリア・ウーマン,career woman
-クーリングオフ,クーリング・オフ,cooling-off
+クーリングオフ,クーリング・オフ,cooling-off,クーリングオフ制度
 疑問符,クエスチョンマーク,クエスチョン・マーク,question mark,はてなマーク
 クラシックカー,クラシック・カー,classic car
 クロスワードパズル,クロスワード・パズル,crossword puzzle
@@ -9879,7 +9877,7 @@ Hull=>Hull,ハル
 ホワイトホール,Whitehall
 マルヌ,Marne
 ムババーネ,ムババネ,Mbabane
-メジナ,メディナ,Medina
+メディナ,Medina=>メディナ,Medina,メジナ
 モスル,Mosul
 ラインラント,Rheinland
 ラゴス,Lagos
@@ -10209,7 +10207,7 @@ Caracalla=>Caracalla,カラカラ
 カリカット,Calicut
 コーンベルト,Corn Belt
 コンノート,Connaught
-サボイア,Savoia
+サボイア,Savoia,サボア,サヴォワ,サヴォイ=>サボイア,Savoia,サボア,サヴォワ,サヴォイ,サボワ
 サンタルチア,Santa Lucia
 サントメ・プリンシペ民主共和国,サントメプリンシペ民主共和国,サントメ・プリンシペ,サントメプリンシペ,Sao Tome and Principe
 サンマルコ,San Marco
@@ -10282,7 +10280,7 @@ Caracalla=>Caracalla,カラカラ
 国際商業会議所,International Chamber of Commerce=>国際商業会議所,International Chamber of Commerce,ICC
 国際刑事裁判所,International Criminal Court=>国際刑事裁判所,International Criminal Court,ICC
 国際色コンソーシアム,インターナショナルカラーコンソーシアム,International Color Consortium=>国際色コンソーシアム,インターナショナルカラーコンソーシアム,International Color Consortium,ICC
-コットン,cotton,綿,木綿,綿布
+コットン,cotton,綿,木綿,綿布=>コットン,cotton,綿,木綿,綿布,モメン
 アイチューンズストア,iTunes Store=>アイチューンズストア,iTunes Store,iTS
 高度道路交通システム,アイティーエス,Intelligent Transport Systems=>高度道路交通システム,アイティーエス,Intelligent Transport Systems,ITS
 I-beam,I形鋼=>I-beam,I形鋼,アイビーム
@@ -10300,7 +10298,7 @@ engineering constructor=>engineering constructor,EC
 ユーロシティ,ユーロシティー,EuroCity=>ユーロシティ,ユーロシティー,EuroCity,EC
 欧州委員会,ヨーロッパ委員会,ヨーロッパ連合委員会,EU委員会,European Commission=>欧州委員会,ヨーロッパ委員会,ヨーロッパ連合委員会,EU委員会,European Commission,EC
 インディアンレッド,Indian red
-人工知能,artificial intelligence=>人工知能,artificial intelligence,AI
+人工知能,アーティフィシャルインテリジェンス,artificial intelligence=>人工知能,アーティフィシャルインテリジェンス,artificial intelligence,AI
 人工授精,artificial insemination,人工媒精,人為授精=>人工授精,artificial insemination,人工媒精,人為授精,AI
 アムネスティインターナショナル,Amnesty International=>アムネスティインターナショナル,Amnesty International,AI
 死亡時画像診断,オートプシーイメージング,autopsy imaging=>死亡時画像診断,オートプシーイメージング,autopsy imaging,Ai
@@ -12699,7 +12697,7 @@ free port,自由貿易港,自由港=>free port,自由貿易港,自由港,フリ�
 握手,あくしゅ,シェークハンド,shake-hands
 あくび,欠伸,アクビ
 あぐら,胡坐,胡座
-通草,木通=>通草,木通,アケビ,あけび
+通草,アケビ,木通=>通草,アケビ,木通,あけび,アケベ,モクツウ
 曙,あけぼの,黎明,夜明け,明け方
 油揚げ,油あげ,あぶらあげ,油揚,あぶらげ,薄揚げ,薄あげ
 挙げ句,あげく,挙句,揚げ句,揚句
@@ -12801,7 +12799,7 @@ free port,自由貿易港,自由港=>free port,自由貿易港,自由港,フリ�
 痛覚=>痛覚,傷み
 苺,いちご,イチゴ,ストロベリー,strawberry
 苺狩り,いちご狩り,イチゴ狩り
-無花果,いちじく=>無花果,いちじく,イチジク
+無花果,いちじく=>無花果,いちじく,イチジク,唐柿
 一度,1度=>一度,1度,一回,一遍,いっぺん
 一番,1番,いちばん
 銀杏,公孫樹,いちょう,イチョウ
@@ -12821,14 +12819,14 @@ free port,自由貿易港,自由港=>free port,自由貿易港,自由港,フリ�
 猪,いのしし,イノシシ
 スポーク,spoke
 命,いのち=>命,いのち,生命
-真っ先,まっさき,まっ先,いの一番
+真っ先,まっさき,まっ先,いの一番=>真っ先,まっさき,まっ先,いの一番,真先
 鼾,いびき,イビキ
 疣,いぼ,イボ
 今一,いまいち,イマイチ=>今一,いまいち,イマイチ,今一つ,今ひとつ
 今頃,今ごろ,今時分
 今迄,今まで
 意味合い,意味あい,意味合=>意味合い,意味あい,意味合,ニュアンス,nuance
-芋,薯,いも,イモ,ポテト,potato
+芋,薯,藷,いも,イモ,ポテト,potato
 芋虫,いも虫,イモ虫,いもむし,イモムシ
 スポークスマン,spokesman
 嫌々,嫌嫌,イヤイヤ,渋々,渋渋,しぶしぶ=>嫌々,嫌嫌,イヤイヤ,渋々,渋渋,しぶしぶ,いやいや
@@ -12860,7 +12858,7 @@ free port,自由貿易港,自由港=>free port,自由貿易港,自由港,フリ�
 ヘマ,へま,ドジ,どじ=>ヘマ,へま,ドジ,どじ,ポカ,ぽか
 ケアレスミス,うっかりミス,凡ミス,単純ミス
 現実世界,実社会,現実社会=>現実世界,実社会,現実社会,リアル,real
-此の世,この世,現世
+此の世,この世,現世,現し世
 移り変わり,移りかわり,移り変り,移ろい,うつろい
 鬱状態,うつ状態
 鬱,欝,うつ,ウツ
@@ -12873,7 +12871,7 @@ free port,自由貿易港,自由港=>free port,自由貿易港,自由港,フリ�
 生まれ付き,生まれつき,生れ付き,天性=>生まれ付き,生まれつき,生れ付き,天性,生来,天然
 スモック,smock
 梅干し,梅干,うめぼし,ウメボシ
-裏側,ウラ側,裏面
+裏側,ウラ側,裏っ側,裏面
 嬉しさ,うれしさ
 鱗,うろこ,ウロコ
 釉薬,釉,うわぐすり,上薬
@@ -12883,7 +12881,7 @@ free port,自由貿易港,自由港=>free port,自由貿易港,自由港,フリ�
 餌場,えさ場,エサ場
 スライディング,sliding
 榎,えのき,エノキ
-海老,えび,エビ,蝦,シュリンプ,shrimp
+海老,えび,エビ,蝦,シュリンプ,shrimp=>海老,えび,エビ,蝦,シュリンプ,shrimp,プローン,prawn
 海老煎餅,えびせんべい,海老せんべい,えびせん
 鰓,えら,エラ
 粒揃い,粒ぞろい,粒選り,粒より,えり抜き,えりぬき,選りぬき,選り抜き,より抜き,よりぬき,選定,セレクション,selection=>粒揃い,粒ぞろい,粒選り,粒より,えり抜き,えりぬき,選りぬき,選り抜き,より抜き,よりぬき,選定,セレクション,selection,選抜
@@ -12906,7 +12904,7 @@ free port,自由貿易港,自由港=>free port,自由貿易港,自由港,フリ�
 公的=>公的,パブリック,public
 御数,おかず,総菜,惣菜,副食物,副食
 金銭,銭
-雪花菜,御殻,おから
+雪花菜,御殻,おから,セッカサイ
 スリップ,slip
 習わし,慣わし,習慣,慣習,習俗,風習,仕来り,しきたり=>習わし,慣わし,習慣,慣習,習俗,風習,仕来り,しきたり,作法
 薬,くすり,クスリ
@@ -13078,7 +13076,7 @@ free port,自由貿易港,自由港=>free port,自由貿易港,自由港,フリ�
 スペル,spell,スペリング,spelling=>スペル,spell,スペリング,spelling,綴り,つづり
 祭り,祭,まつり
 アナログ,analog
-饅頭,まんじゅう
+饅頭,まんじゅう,マントウ
 酒饅頭,酒まんじゅう
 御御籤,御神籤,お御籤,お神籤,おみくじ,オミクジ
 御輿,神輿,みこし
@@ -13134,7 +13132,7 @@ free port,自由貿易港,自由港=>free port,自由貿易港,自由港,フリ�
 肥満,でぶ,デブ
 公衆トイレ,公衆便所,公共トイレ
 洋風,洋式,西洋風
-男性=>男性,男,おとこ,オトコ,殿方,男子
+男性=>男性,男,おとこ,オトコ,殿方,男子,おのこご
 男の子,男児,少年,ボーイ,boy=>男の子,男児,少年,ボーイ,boy,男子
 センセーション,sensation
 世話人,世話役
@@ -13195,7 +13193,7 @@ thyme=>thyme,タイム
 チェーンブロック,chain block
 食物連鎖=>食物連鎖,フードチェーン,food chain
 ボランタリーチェーン,voluntary chain
-サプライチェーン,supply chain
+サプライチェーン,supply chain=>サプライチェーン,supply chain,SCM
 チェーンスモーカー,chain smoker
 ドアチェーン,door chain
 タオル,towel
@@ -13505,7 +13503,7 @@ purine=>purine,プリン
 ベテラン,veteran
 ベビーブーム,baby boom
 ベルトコンベヤー,belt conveyor
-ベルベット,velvet,ビロード,velude
+ベルベット,velvet,ビロード,velude,別珍,velveteen
 ペチコート,petticoat
 胡椒,こしょう,コショウ,ペパー,ペッパー,pepper
 ペディキュア,pedicure
@@ -14082,7 +14080,7 @@ river=>river,川,河川,リバー
 ウオータースカイ,ウォータースカイ,water sky
 ウオーターパイプ,ウォーターパイプ,water pipe
 水球,ウオーターポロ,ウォーターポロ,water polo
-西瓜,スイカ,すいか,ウオーターメロン,ウォーターメロン,watermelon
+西瓜,スイカ,すいか,ウオーターメロン,ウォーターメロン,watermelon,サイウリ
 ウオーターライン,ウォーターライン,waterline
 ホワイトウオーター,ホワイトウォーター,white water
 ラフウォーター,ラフウオーター,rough water
@@ -14227,7 +14225,7 @@ river=>river,川,河川,リバー
 ポリエチレングリコール,Polyethylene glycol=>ポリエチレングリコール,Polyethylene glycol,PEG
 ポリエチレンテレフタレート,ポリエチレンテレフタラート,Polyethylene terephthalate=>ポリエチレンテレフタレート,ポリエチレンテレフタラート,Polyethylene terephthalate,PET
 ポリプロピレングリコール,Polypropylene glycol
-メーンバンク,メインバンク,main bank,主力銀行
+メーンバンク,メインバンク,main bank,主力銀行,主力行
 メインページ,main page
 メインメニュー,main menu
 主記憶装置,主メモリー,メーンメモリー,メーンメモリ,メインメモリー,メインメモリ,main memory
@@ -14830,7 +14828,7 @@ rate=>rate,レート
 ヨーヨー,yo-yo
 クリームサンデー=>クリームサンデー,サンデー,sundae
 アクアラング,Aqualung
-オセロ,Othello
+オセロ,Othello,オセロゲーム
 テクニカラー,Technicolor
 テトロン,Tetoron
 ヒロポン,Philopon
@@ -15094,7 +15092,7 @@ Thar=>Thar,タール
 ペルー共和国,ペルー,Peru
 ペルシャ,ペルシア,波斯,Persia
 ポリネシア,Polynesia
-ミクロネシア,Micronesia
+ミクロネシア,Micronesia,マイクロネシア
 メキシコ合衆国,メキシコ,Mexico=>メキシコ合衆国,メキシコ,Mexico,メヒコ
 Metz=>Metz,メス
 メッカ,Mecca
@@ -15453,7 +15451,7 @@ gallop=>gallop,ギャロップ
 ギルド,guild
 料理,調理,炊事,クッキング,cooking,煮炊き
 クライミング,climbing
-crown=>crown,クラウン
+クラウン,crown=>クラウン,crown,王冠,オウカン
 ピエロ,pierrot=>ピエロ,pierrot,クラウン,clown
 クラクション,klaxon
 クラシカル,classical,古典的
@@ -15515,7 +15513,7 @@ cairn=>cairn,ケルン
 ケロイド,keloid
 ゲーム,game
 ゲイバー,gay bar
-来客,ゲスト,guest=>来客,ゲスト,guest,客
+来客,ゲスト,guest,客人,お客さん=>来客,ゲスト,guest,客人,お客さん,客
 列車,トレイン,トレーン,train
 ゲノム,genom
 ゲリラ,guerrilla
@@ -15576,7 +15574,7 @@ corona=>corona,コロナ
 ゴーカート,go-cart
 ゴーグル,goggles
 ゴーゴー,go-go
-ゴージャス,gorgeous,豪華
+ゴージャス,gorgeous,豪華=>ゴージャス,gorgeous,豪華,ゴーカ
 ゴーストタウン,ghost town
 ゴールキック,goal kick
 ゴールデンタイム,ゴールデンアワー,G帯,プライムタイム,prime time,P帯
@@ -16064,7 +16062,7 @@ trance=>trance,トランス
 trawl=>trawl,トロール
 熱帯,トロピカル,tropical
 トロピカルドリンク,tropical drink
-トロンボーン,trombone
+トロンボーン,trombone=>トロンボーン,trombone,ボントロ
 トング,tongs
 ドーピング,doping
 ドアチャイム,door chime=>ドアチャイム,door chime,呼び鈴
@@ -16115,7 +16113,7 @@ trawl=>trawl,トロール
 ニクロム,nichrome
 ニコチン,nicotine
 ニッパー,nipper
-ニトログリセリン,nitroglycerin
+ニトログリセリン,nitroglycerin=>ニトログリセリン,nitroglycerin,ニトロ
 ニトロセルロース,nitrocellulose
 虚無主義者=>虚無主義者,ニヒリスト,nihilist
 オリジナル,original
@@ -16484,7 +16482,7 @@ brooch=>brooch,ブローチ
 ブロード,broad
 青銅,ブロンズ,bronze
 サブシステム,subsystem
-金髪,ブロンド,blond,blonde
+金髪,ブロンド,blond,blonde=>金髪,ブロンド,blond,blonde,ぱつきん
 プードル,poodle
 プール,pool
 プラカード,placard
@@ -16579,7 +16577,7 @@ brooch=>brooch,ブローチ
 ホップ,hop
 ホロスコープ,horoscope
 白胡椒,白こしょう,白コショウ,ホワイトペッパー,white pepper
-彼氏=>彼氏,ボーイフレンド,boyfriend
+彼氏=>彼氏,ボーイフレンド,boyfriend,かれぴっぴ
 ボート,ぼーと,boat
 ボートピープル,boat people
 ボートレース,boat race
@@ -16713,7 +16711,7 @@ mook=>mook,ムック
 朝=>朝,モーニング,morning
 ガードレール,guardrail
 モーニングコート,morning coat=>モーニングコート,morning coat,モーニング,morning
-モーニングコール,morning call
+モーニングコール,morning call=>モーニングコール,morning call,モニコ
 ショッピングモール,shopping mall=>ショッピングモール,shopping mall,モール,mall
 maul=>maul,モール
 モアイ,moai,モアイ像
@@ -16734,7 +16732,7 @@ maul=>maul,モール
 モノトーン,monotone
 モノマニア,monomania,偏執狂
 モノレール,monorail
-モノローグ,monolog,monologue
+モノローグ,monologue,独白,独白体
 モレーン,moraine=>モレーン,moraine,堆石
 怪物,monster=>怪物,monster,モンスター
 ヤング,young
@@ -17594,7 +17592,7 @@ thymol=>thymol,チモール
 エッセン,Essen
 エリトリア国,エリトリア,Eritrea
 オクラホマ,Oklahoma
-オデッサ,Odessa
+オデーサ,オデッサ,Odessa
 オハイオ,Ohio
 ポリウレタン,polyurethane
 オホーツク,Okhotsk
@@ -17670,7 +17668,7 @@ sacrament=>sacrament,サクラメント
 マンション,mansion=>マンション,mansion,集合住宅,共同住宅
 サントス,Santos
 サンマリノ共和国,サンマリノ,San Marino
-ザクセン,Sachsen
+ザクセン,Sachsen,サクソニア,Saxonia,サクソニー,Saxony
 ザグレブ,Zagreb
 ザルツブルク,Salzburg
 ザンジバル,Zanzibar
@@ -17713,7 +17711,7 @@ sophia=>sophia,ソフィア
 ダニューブ,Danube
 ダブリン,Dublin
 ダンケルク,Dunkerque
-チェルノブイリ,Chernobyl'
+チョルノービリ,チェルノブイリ,Chernobyl'
 テネシー,Tennessee
 区分化,セグメント化,セグメンテーション,segmentation
 免許=>免許,ライセンス,license
@@ -20241,7 +20239,7 @@ Advertising Council=>Advertising Council,AC
 ガボン共和国,ガボン,Gabon
 ガラテヤ,Galatia
 レストラン,restaurant,リストランテ,ristorante
-キエフ,Kiev
+キーウ,キエフ,Kiev
 キガリ,Kigali
 キト,Quito
 ギアナ,Guiana
@@ -20307,7 +20305,7 @@ Tirol=>Tirol,チロル
 トレド,Toledo
 トンガ王国,トンガ,Tonga
 ドーハ,Doha
-ドニエプル,Dnepr
+ドニエプル,Dnepr=>ドニエプル,Dnepr,ドニプロ
 ドバイ,Dubai
 ナイル,Nile
 泊まり客,泊り客,宿泊客
@@ -20781,7 +20779,7 @@ T&Dフィナンシャル生命保険,T&Dフィナンシャル生命
 職業領域,職務領域=>職業領域,職務領域,職域
 肥満度,BMI値,体格指数,肥満指数,ボディマス指数=>肥満度,BMI値,体格指数,肥満指数,ボディマス指数,BMI
 腎機能障害,腎臓障害,腎障害
-臨時休業,臨休
+臨時休業=>臨時休業,臨休
 臨時職員,臨職
 労い,ねぎらい,労り,いたわり,慰労
 自動車免許,運転免許
@@ -21095,7 +21093,7 @@ FWD富士生命保険,FWD富士生命
 取り下げ,取りさげ,取下げ,取下
 手元,手許
 照合=>照合,突き合わせ,突きあわせ,突き合せ,突合せ
-平方メートル,平米,㎡
+平方メートル,平米,㎡=>平方メートル,平米,㎡,m2
 返信用封筒,返信封筒
 生死,生き死に
 障害者手帳,障がい者手帳
@@ -21263,7 +21261,7 @@ fore=>fore,フォア
 経済連携協定=>経済連携協定,EPA
 情動指数,感情指数=>情動指数,感情指数,EQ
 従業員満足=>従業員満足,ES
-社員持ち株会制度,社員持株会制度,従業員持ち株制度,従業員持株制度,社員持ち株制度,社員持株制度=>社員持ち株会制度,社員持株会制度,従業員持ち株制度,従業員持株制度,社員持ち株制度,社員持株制度,ESOP
+社員持ち株会制度,社員持株会制度,従業員持ち株制度,従業員持株制度,社員持ち株制度,社員持株制度=>社員持ち株会制度,社員持株会制度,従業員持ち株制度,従業員持株制度,社員持ち株制度,社員持株制度,ESOP,イーソップ
 国際会計基準=>国際会計基準,IFRS
 重要業績評価指標=>重要業績評価指標,KPI
 経営管理学修士,経営学修士=>経営管理学修士,経営学修士,MBA
@@ -21647,7 +21645,7 @@ Google Chrome=>Google Chrome,Chrome
 依頼,頼み
 若しくは=>若しくは,あるいは
 弱火,とろ火
-終日,丸一日=>終日,丸一日,全日
+終日,丸一日=>終日,丸一日,全日,ひねもす
 消滅=>消滅,消失
 罹患,罹病
 所定内労働時間,所定内時間
@@ -21689,14 +21687,14 @@ unaccompanied child=>unaccompanied child,アナカン
 アルゼンチン共和国,アルゼンチン,Argentina
 オーストリア共和国,オーストリア,Austria
 ベラルーシ共和国,ベラルーシ,Belarus
-ベルギー王国,ベルギー,Belgium
+ベルギー王国,ベルギー,Belgium,ベルジャム
 ボスニア・ヘルツェゴビナ,Bosnia and Herzegovina
 カナダ,Canada
 カーボベルデ共和国,カーボベルデ,Cabo Verde
 中央アフリカ共和国,中央アフリカ,Central African Republic
 チリ共和国,Chile=>チリ共和国,Chile,チリ
 コートジボワール共和国,コートジボアール共和国,コートジボワール,コートジボアール,Cote d'Ivoire
-朝鮮民主主義人民共和国,Democratic People's Republic of Korea,北朝鮮
+朝鮮民主主義人民共和国,Democratic People's Republic of Korea,北朝鮮,ノースコリア
 エクアドル共和国,エクアドル,Ecuador
 赤道ギニア共和国,赤道ギニア,Equatorial Guinea
 エスワティニ王国,エスワティニ,Eswatini
@@ -21713,7 +21711,7 @@ unaccompanied child=>unaccompanied child,アナカン
 パラオ共和国,パラオ,Palau,ベラウ,Belau
 パナマ共和国,パナマ,Panama
 大韓民国,韓国,Republic of Korea
-セントビンセント及びグレナディーン諸島,Saint Vincent and the Grenadines
+セントビンセント及びグレナディーン諸島,セントビンセント・グレナディーン,Saint Vincent and the Grenadines
 シエラレオネ共和国,シエラレオネ,Sierra Leone
 ソロモン諸島,Solomon Islands
 南スーダン共和国,南スーダン,South Sudan
@@ -23625,3 +23623,20 @@ early=>early,アーリー
 赤腹=>赤腹,アカハラ
 貧乏=>貧乏,ビンボー
 ギムナジウム=>ギムナジウム,gymnasium
+BARACUTA=>BARACUTA,バラクータ
+暗刻=>暗刻,アンコー
+辣韮,ラッキョウ,大韮
+ヴォレー=>ヴォレー,鎧戸
+浄世夫=>浄世夫,ジョゼフ
+蓬,ヨモギ,エモギ
+シェール,shale,頁岩
+臨時休校=>臨時休校,臨休
+エアリプライ,エアリプ,空中リプライ,空リプ
+丹柄,丹殻=>丹柄,丹殻,タンガラ
+タンガッラ=>タンガッラ,タンガラ
+ホルター=>ホルター,ホルタ
+国際宇宙ステーション=>国際宇宙ステーション,ISS
+東京国立博物館=>東京国立博物館,東博
+デジタルトランスフォーメーション=>デジタルトランスフォーメーション,DX
+アジアインフラ投資銀行=>アジアインフラ投資銀行,AIIB
+ビジネス・プロセス・アウトソーシング,ビジネスプロセスアウトソーシング=>ビジネス・プロセス・アウトソーシング,ビジネスプロセスアウトソーシング,BPO
